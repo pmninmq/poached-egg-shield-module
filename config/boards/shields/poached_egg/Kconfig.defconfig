@@ -1,6 +1,0 @@
-if SHIELD_POACHED_EGG
-
-config ZMK_KEYBOARD_NAME
-    default "Poached Egg"
-
-endif

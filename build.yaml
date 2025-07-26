@@ -18,8 +18,6 @@
 #
 ---
 include:
-  # - board: seeeduino_xiao_ble
-  #   shield: poached_egg
   - board: seeeduino_xiao_ble
     shield: poached_eggs_left
     snippet: studio-rpc-usb-uart

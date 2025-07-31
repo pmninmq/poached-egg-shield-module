@@ -2,7 +2,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -18,8 +17,13 @@
         };
 
         eisu {
-            bindings = <&kp LANGUAGE_5>;
+            bindings = <&kp LC(LANG_ZENKAKUHANKAKU)>;
             key-positions = <16 15>;
+        };
+
+        BT {
+            bindings = <&mo 3>;
+            key-positions = <41 44>;
         };
     };
 

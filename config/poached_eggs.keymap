@@ -3,6 +3,25 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <25 26 27 28>;
+        };
+
+        kana {
+            bindings = <&kp INT_KANA>;
+            key-positions = <19 20>;
+        };
+
+        eisu {
+            bindings = <&kp LANGUAGE_5>;
+            key-positions = <16 15>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

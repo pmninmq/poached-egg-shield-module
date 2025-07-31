@@ -35,10 +35,10 @@
 
         bt_layer {
             bindings = <
-&none   &none         &bt BT_SEL 4  &bt BT_CLR    &bt BT_CLR_ALL  &bt BT_SEL 4                &none  &none  &none  &none  &none  &none
-&kp F1  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp F6                      &none  &none  &none  &none  &none  &none
-&none   &kp F2        &kp F3        &kp F4        &kp F5          &none                       &none  &none  &none  &none  &none  &none
-&none   &none         &none         &none         &none           &none         &none  &none  &none  &none  &none  &none  &none  &none
+&none   &none         &bt BT_SEL 4  &bt BT_CLR    &bt BT_CLR_ALL  &none                 &none   &kp INS     &kp HOME  &kp PAGE_UP    &none              &none
+&kp F1  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp F6                &kp F7  &kp DELETE  &kp END   &kp PAGE_DOWN  &kp K_APPLICATION  &kp F12
+&none   &kp F2        &kp F3        &kp F4        &kp F5          &none                 &none   &kp F8      &kp F9    &kp F10        &kp F11            &none
+&none   &none         &none         &none         &none           &none   &none  &none  &none   &none       &none     &none          &none              &none
             >;
         };
     };

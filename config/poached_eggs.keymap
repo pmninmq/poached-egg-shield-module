@@ -30,7 +30,7 @@
 &none  &none  &kp L           &kp U           &kp F             &kp MINUS                                                       &kp K        &kp W              &kp R            &kp Y            &none  &none
 &kp Q  &kp E  &mt LEFT_WIN I  &mt LEFT_ALT A  &mt LEFT_SHIFT O  &kp COMMA                                                       &kp G        &mt RIGHT_SHIFT T  &mt RIGHT_ALT N  &mt RIGHT_WIN S  &kp H  &kp P
 &none  &kp Z  &kp X           &kp C           &kp V             &none                                                           &none        &kp D              &kp M            &kp J            &kp B  &none
-&kp A  &none  &none           &none           &none             &lt 1 BACKSPACE  &mt LEFT_CONTROL ENTER  &mt RIGHT_CONTROL TAB  &lt 2 SPACE  &none              &none            &none            &none  &none
+&none  &none  &none           &none           &none             &lt 1 BACKSPACE  &mt LEFT_CONTROL ENTER  &mt RIGHT_CONTROL TAB  &lt 2 SPACE  &none              &none            &none            &none  &none
             >;
         };
 
